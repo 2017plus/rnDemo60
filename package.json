@@ -2,6 +2,7 @@
   "name": "rnDemo60",
   "version": "0.0.1",
   "private": true,
+  "description": "npm库拒绝发布private类项目,如确认发布，publishConfig下面描述的字典registry在发布时覆盖config参数",
   "scripts": {
     "start": "react-native start",
     "test": "jest",
@@ -17,6 +18,7 @@
     "@react-native-community/eslint-config": "^0.0.5",
     "babel-jest": "^24.9.0",
     "eslint": "^6.6.0",
+    "babel-eslint": "^10.0.1",
     "jest": "^24.9.0",
     "metro-react-native-babel-preset": "^0.57.0",
     "react-test-renderer": "16.8.6"
